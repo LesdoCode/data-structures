@@ -15,4 +15,10 @@ Feel free to contribute, add more structures, modify existing data structures an
 <h4>More stuf to do</h4>
 <li>Unit test all structures</li>
 <li>Document all structures</li>
+<li>Allow specific types for data structures eg: 
+  const lstPeople = new List(Person)
+  OR 
+  `const numsAndLetters = new Queue(Number, String)`.
+  
+  constructors take in one or more types and only allow those types to be used in the data structure.
 <li>Be awesome</li>
